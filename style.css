@@ -1,0 +1,256 @@
+/* #CDB380 (Amarelo Renascentista): Representando o ouro das obras de arte renascentistas.
+/*'#8B5F33 (Marrom Renascentista): Evocando os tons terrosos presentes nas pinturas da época.
+/* #2E3D49 (Azul Renascentista): Lembra os azuis profundos usados em pinturas renascentistas, como o azul ultramarino.
+/* #D9D5C5 (Bege Renascentista): Representando a paleta de cores suaves e neutras também presentes em algumas obras. */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #2e2d49;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color:#2e2d49;
+    padding: 2%;
+}
+
+header h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    font-size: 35pt;
+}
+header h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    font-size: 30pt;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style:none;
+}
+
+header a{
+    margin: 15px;
+    font-size: 18pt;
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+header a:hover{
+    color: rgb(140, 140, 140);
+    font-size: 22px;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: #CDB380;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section h1{
+    font-size: 30px;
+    color: #2e2d49;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #737878;
+    margin-left: 1rem;
+}
+
+.resp{
+    font-size: 17px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#section-1{
+    width: 100%;
+    height: auto;
+    background-color:#8B5F33 ;
+    padding: 30px;
+}
+
+#Question-2{
+    font-size: 30px;
+    color: #D9D5C5;
+    font-weight: bold;
+    text-shadow: 5px 5px 4px  #000000;
+    margin-left: 1rem;
+}
+
+strong{
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+}
+
+span{
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #2e2d49;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    padding: 2%;
+}
+.icons{
+    margin-top: 10px;
+}
+
+#TitleFotter{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    color: #f0ffff;
+}
+#Negrito{
+    color: #000000;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width : 700px) {
+    .section{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        margin-right: 5%;
+        background-color:#CDB380;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .resp{
+        font-size: 15px;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    .section h1{
+        font-size: 17px;
+        color: #2e2d49;
+        font-weight: bold;
+        text-shadow: 3px 3px 3px #737878;
+        text-align: center;
+        margin-left: 1rem;
+    }
+    #Question-2{
+        font-size: 17px;
+        color: #D9D5C5;
+        font-weight: bold;
+        text-shadow: 5px 5px 4px  #000000;
+        text-align: center;
+        margin-left: 1rem;
+    }
+    header h1{
+        font-family: 'Courier New', Courier, monospace;
+        color: azure;
+        font-size: 14pt;
+    }
+    header h2{
+        font-family: 'Courier New', Courier, monospace;
+        color: azure;
+        font-size: 3pt;
+    }
+    header a{
+        margin: 7px;
+        font-size: 9pt;
+        text-decoration: none;
+        color: azure;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: 0.5s;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width : 920px) {
+    .section{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        margin-right: 5%;
+        background-color: #CDB380;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .resp{
+        font-size: 17px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .section h1{
+        font-size: 17px;
+        color: #2e2d49;
+        font-weight: bold;
+        text-shadow: 3px 3px 3px #737878;
+        text-align: center;
+        margin-left: 1rem;
+    }
+    #Question-2{
+        font-size: 17px;
+        color: #D9D5C5;
+        font-weight: bold;
+        text-shadow: 5px 5px 4px  #000000;
+        text-align: center;
+        margin-left: 1rem;
+    }
+    header h1{
+        font-family: 'Courier New', Courier, monospace;
+        color: azure;
+        font-size: 17pt;
+    }
+    header h2{
+        font-family: 'Courier New', Courier, monospace;
+        color: azure;
+        font-size: 14pt;
+    }
+    header a{
+        margin: 9px;
+        font-size: 12pt;
+        text-decoration: none;
+        color: azure;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: 0.5s;
+    }
+}
